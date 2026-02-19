@@ -88,7 +88,7 @@ export function Sidebar() {
 
       {/* Footer */}
       <div className="px-5 pt-4 border-t border-stone-200">
-        <p className="text-[10px] text-stone-400">Based on the UCLA<br />Financial Wellness Workbook</p>
+        <p className="text-[10px] text-stone-400">Financial Wellness Workbook</p>
       </div>
     </aside>
   )

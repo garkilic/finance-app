@@ -108,19 +108,19 @@ function StepWelcome({ onStart, onLoadSample }: { onStart: () => void; onLoadSam
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-6 text-center">
       <div className="max-w-lg">
-        <p className="text-xs uppercase tracking-widest text-stone-400 mb-6">UCLA Financial Wellness Workbook</p>
+        <p className="text-xs uppercase tracking-widest text-stone-400 mb-6">Financial Wellness Workbook</p>
         <h1 className="text-4xl font-semibold text-stone-900 mb-4 leading-tight">
           Build your financial roadmap.
         </h1>
         <p className="text-stone-500 mb-8 leading-relaxed">
-          A step-by-step guide through the UCLA Financial Wellness Workbook — from understanding your finances to creating a plan that works.
+          A step-by-step guide to building your financial roadmap — from understanding your finances to creating a plan that works.
         </p>
 
         {/* Demo notice */}
         <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 mb-8 text-left">
           <p className="text-xs font-medium text-amber-800 mb-0.5">This is a demo</p>
           <p className="text-xs text-amber-700 leading-relaxed">
-            All data is saved locally in your browser and never sent anywhere. Use "Load sample data" to explore with pre-filled UCLA graduate student finances, or "Get Started" to enter your own.
+            All data is saved locally in your browser and never sent anywhere. Use "Load sample data" to explore with pre-filled sample finances, or "Get Started" to enter your own.
           </p>
         </div>
 

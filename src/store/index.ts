@@ -76,7 +76,7 @@ const sampleAccounts: Account[] = [
   { id: 'a12', category: 'loan', institution: 'US Dept of Education', nickname: 'Student Loan (Sub)', subtype: 'Federal Subsidized', apr: 5.5, balance: 2000, minimumPayment: 0, notes: 'In deferment', lastUpdated: today() } as LoanAccount,
   { id: 'a13', category: 'loan', institution: 'US Dept of Education', nickname: 'Student Loan (Unsub)', subtype: 'Federal Unsubsidized', apr: 5.5, balance: 1000, minimumPayment: 0, lastUpdated: today() } as LoanAccount,
   { id: 'a14', category: 'loan', institution: 'Honda Financial', nickname: 'Auto Loan (Civic)', subtype: 'Auto', apr: 11.35, balance: 6870, minimumPayment: 489, dueDate: 15, lastUpdated: today() } as LoanAccount,
-  { id: 'a15', category: 'loan', institution: 'UCLA Health', nickname: 'Medical Bill', subtype: 'Medical', apr: 0, balance: 400, minimumPayment: 50, notes: 'ER visit 6/8/23 — 0% interest', lastUpdated: today() } as LoanAccount,
+  { id: 'a15', category: 'loan', institution: 'University Health', nickname: 'Medical Bill', subtype: 'Medical', apr: 0, balance: 400, minimumPayment: 50, notes: 'ER visit 6/8/23 — 0% interest', lastUpdated: today() } as LoanAccount,
   // Credit cards
   { id: 'a16', category: 'credit_card', institution: 'Citi', nickname: 'Custom Cash', lastFour: '4892', subtype: 'standard', apr: 25.24, creditLimit: 5000, balance: 5000, minimumPayment: 35, paymentDueDate: 8, closingDate: 16, rewards: '5% on top spend category', lastUpdated: today() } as CreditCard,
   { id: 'a17', category: 'credit_card', institution: 'Synchrony / Amazon', nickname: 'Amazon Prime', lastFour: '3311', subtype: 'co-branded', apr: 29.99, creditLimit: 1200, balance: 25, minimumPayment: 25, rewards: '5% back on Amazon', lastUpdated: today() } as CreditCard,
@@ -91,7 +91,7 @@ const sampleTransactions: Transaction[] = [
   { id: 't3', date: '2023-10-05', description: 'Chevron', category: 'gas', amount: 48.56 },
   { id: 't4', date: '2023-10-07', description: 'Honda payment', category: 'car_fees', amount: 489.00 },
   { id: 't5', date: '2023-10-10', description: 'Whole Foods', category: 'groceries', amount: 108.49 },
-  { id: 't6', date: '2023-10-12', description: 'UCLA Student Health', category: 'health_medical', amount: 25.00 },
+  { id: 't6', date: '2023-10-12', description: 'Student Health Center', category: 'health_medical', amount: 25.00 },
   { id: 't7', date: '2023-10-15', description: 'Spotify', category: 'entertainment_subscriptions', amount: 9.99 },
   { id: 't8', date: '2023-10-18', description: 'Bruin Plate (dining)', category: 'dining_out', amount: 32.50 },
   { id: 't9', date: '2023-10-20', description: 'Shell', category: 'gas', amount: 45.31 },

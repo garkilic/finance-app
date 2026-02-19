@@ -11,7 +11,7 @@
 
 ### The Idea
 
-Roadmap is the UCLA Financial Wellness workbook rebuilt as a web app. It follows the same three-phase structure exactly — **Understand, Create, Compare** — covering every worksheet in the original document. No features are cut. But instead of a spreadsheet, every step is a clean, well-designed screen that's fast to fill out and satisfying to use.
+Roadmap is a Financial Wellness workbook rebuilt as a web app. It follows the same three-phase structure exactly — **Understand, Create, Compare** — covering every worksheet in the original document. No features are cut. But instead of a spreadsheet, every step is a clean, well-designed screen that's fast to fill out and satisfying to use.
 
 The app is opinionated and guided. It takes you through the phases in order on first setup, then lets you maintain and update your data freely afterward. Think of it as a living financial document — more structured than Notion, more personal than YNAB, more honest than a spreadsheet you stopped opening.
 
