@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f7f4;
+  color: #111111;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Mono font for all financial figures */
+.font-finance {
+  font-family: var(--font-mono);
+  font-feature-settings: 'tnum';
+}
+
+/* Subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1cdc8;
+  border-radius: 3px;
+}
+
+/* Table row hover */
+tr:hover td {
+  background-color: #f5f3f0;
+}
+
+/* Smooth number transitions */
+.num-transition {
+  transition: color 0.3s ease;
+}
